@@ -1,0 +1,9 @@
+# eclipse 产生的文件
+.settings
+.project
+.buildpath
+
+# yii 需要忽略的文件
+assets/*
+protected/runtime/*
+

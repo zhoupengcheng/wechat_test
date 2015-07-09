@@ -28,6 +28,9 @@ return array(
             'ipFilters'=>array('127.0.0.1','::1'),
         ),
 
+        'jjsg'=>array(
+        ),
+
     ),
 
     // application components
@@ -46,16 +49,25 @@ return array(
                 '<controller:\w+>/<id:\d+>'=>'<controller>/view',
                 '<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
                 '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+                '<module:\w+>/<controller:\w+>/<action:\w+>'=>'<module>/<controller>/<action>',
             ),
         ),
 
         // uncomment the following to use a MySQL database
         'db'=>array(
-            'connectionString' => 'mysql:host=192.168.13.185;dbname=wechat_test',
+            'connectionString' => 'mysql:host=127.0.0.1;port=3306;dbname=wechat_test',
             'emulatePrepare' => true,
             'username' => 'root',
             'password' => '',
+            'charset' => 'utf8mb4',
+        ),
+        'gameadm'=>array(
+            'connetcionString' => 'mysql:host=10.1.2.254;prot=3306;dbname=gameadm',
+            'emulatePrepare' => true,
+            'username' => 'game',
+            'password' => 'game',
             'charset' => 'utf8',
+            'class' => 'CDbConnection',
         ),
 
         'errorHandler'=>array(

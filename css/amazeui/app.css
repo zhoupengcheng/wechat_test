@@ -11,7 +11,7 @@ body {
     height: 100%;
 }
 body {
-    background: url(../i/sg/bg.jpg) no-repeat;
+    background: url(../images/sg/bg.jpg) no-repeat;
     background-size: cover;
 }
 header {
@@ -25,7 +25,7 @@ header {
     width: 100%;
     z-index: 2;
 }
-header .header-title {
+header .sg-header-title {
     font-size: 1.2em;
     text-align: center;
 }
@@ -36,7 +36,7 @@ header nav a:not(.button){
     color: #fff;
     height: 44px;
 }
-header .right {
+header .sg-right {
     position: absolute;
     right: 0;
     top: 0;
@@ -49,36 +49,36 @@ footer {
     width: 100%;
     z-index: 2;
 }
-footer .bg-footer img {
+footer .sg-bg-footer img {
     width: 100%;
     height: 71px;
 }
-.container {
+.sg-container {
     position: absolute;
     top: 44px;
     bottom: 71px;
     width: 100%;
     z-index: 1;
 }
-.article {
+.sg-article {
     margin: 0 10px;
     border: 5px solid #333438;
     min-height: 100%;
     border-radius: 6px;
     background-color: #fff;
 }
-ul.list {
+ul.sg-list {
     list-style: none;
     background-color: #fff;
     padding: 0;
     margin: 0;
 }
-ul.list>li {
+ul.sg-list>li {
     border-bottom: 1px solid rgba(0, 0, 0, .1);
     position: relative;
     padding: 15px 20px 15px 10px;
 }
-ul.list-menu a {
+ul.sg-list-menu a {
     position: relative;
     display: block;
     padding: inherit;
@@ -86,44 +86,44 @@ ul.list-menu a {
     color: inherit;
     text-decoration: none;
 }
-.gift-icon {
-    background: url(../i/sg/list_icon/gift.png) no-repeat;
+.sg-gift-icon {
+    background: url(../images/sg/list_icon/gift.png) no-repeat;
     background-size: 45px;
     background-origin: content-box;
     background-position: center left;
 }
-.qiandao-icon {
-    background: url(../i/sg/list_icon/qiandao.png) no-repeat;
+.sg-qiandao-icon {
+    background: url(../images/sg/list_icon/qiandao.png) no-repeat;
     background-size: 45px;
     background-origin: content-box;
     background-position: center left;
 }
-.near-users-icon {
-    background: url(../i/sg/list_icon/near_users.png) no-repeat;
+.sg-near-users-icon {
+    background: url(../images/sg/list_icon/near_users.png) no-repeat;
     background-size: 45px;
     background-origin: content-box;
     background-position: center left;
 }
-.lucky-draw-icon {
-    background: url(../i/sg/list_icon/lucky.png) no-repeat;
+.sg-lucky-draw-icon {
+    background: url(../images/sg/list_icon/lucky.png) no-repeat;
     background-size: 45px;
     background-origin: content-box;
     background-position: center left;
 }
-.news-icon {
-    background: url(../i/sg/list_icon/news.png) no-repeat;
+.sg-news-icon {
+    background: url(../images/sg/list_icon/news.png) no-repeat;
     background-size: 45px;
     background-origin: content-box;
     background-position: center left;
 }
-.bbs-icon {
-    background: url(../i/sg/list_icon/bbs.png) no-repeat;
+.sg-bbs-icon {
+    background: url(../images/sg/list_icon/bbs.png) no-repeat;
     background-size: 45px;
     background-origin: content-box;
     background-position: center left;
 }
-.question-icon {
-    background: url(../i/sg/list_icon/funny_question.png) no-repeat;
+.sg-question-icon {
+    background: url(../images/sg/list_icon/funny_question.png) no-repeat;
     background-size: 45px;
     background-origin: content-box;
     background-position: center left;
@@ -138,7 +138,7 @@ p {
     padding: 5px 0 0 0;
     margin: 0;
 }
-.count {
+.sg-count {
     background-color: #E74C3C;
     position: absolute;
     border-radius: 30px;

@@ -8,6 +8,8 @@
 return array(
     'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
     'name'=>'微信',
+    'language'=>'zh_cn',
+    'timeZone' => 'Asia/Shanghai',
 
     // preloading 'log' component
     'preload'=>array('log'),
@@ -28,6 +30,7 @@ return array(
             'ipFilters'=>array('127.0.0.1','::1'),
         ),
 
+        // import jjsg module
         'jjsg'=>array(
         ),
 
@@ -49,7 +52,6 @@ return array(
                 '<controller:\w+>/<id:\d+>'=>'<controller>/view',
                 '<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
                 '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
-                '<module:\w+>/<controller:\w+>/<action:\w+>'=>'<module>/<controller>/<action>',
             ),
         ),
 
@@ -95,6 +97,6 @@ return array(
     // using Yii::app()->params['paramName']
     'params'=>array(
         // this is used in contact page
-        'adminEmail'=>'webmaster@example.com',
+        'adminEmail'=>'neilzhou@123u.com',
     ),
 );

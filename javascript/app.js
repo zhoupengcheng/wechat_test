@@ -1,5 +1,5 @@
 (function($) {
-
-  var myScroll = new IScroll('.container', { mouseWheel: true });
-
+    $(function() {
+        var indexScroll = new IScroll('.sg-container', { mouseWheel: true });
+    });
 })(jQuery);
